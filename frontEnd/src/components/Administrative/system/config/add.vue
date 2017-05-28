@@ -112,7 +112,7 @@
       }
     },
     created() {
-      this.uploadUrl = window.HOST + '/Upload'
+      this.uploadUrl = window.HOST + 'admin/upload'
       this.apiPost('admin/base/getConfigs').then((res) => {
         this.handelResponse(res, (data) => {
           this.form.SYSTEM_NAME = data.SYSTEM_NAME
