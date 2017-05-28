@@ -13,7 +13,6 @@ class Upload extends Controller
 {   
     public function index()
     {	
-
         header('Access-Control-Allow-Origin: *');
         header('Access-Control-Allow-Methods: POST');
         header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept");
